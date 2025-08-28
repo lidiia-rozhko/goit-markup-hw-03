@@ -71,24 +71,30 @@ address {
   margin: 0 auto;
 }
 
-/* .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-} */
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 /* ------------------------- HEADER ------------------------ */
 
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .header .container {
@@ -204,10 +210,8 @@ address {
 
 /* -------------------- OUR CORE VALUES ------------------- */
 
-.values {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+/* .values {
+} */
 
 .values-list {
   display: flex;
@@ -238,8 +242,6 @@ address {
 
 .team {
   background: var(--cloud);
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .team-title,
@@ -271,7 +273,7 @@ address {
 /* .team-img {
 } */
 
-.team-containet {
+.team-container {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -325,10 +327,8 @@ address {
 }
 
 /* ------------------------ Our Portfolio ----------------------- */
-.portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
+/* .portfolio {
+} */
 
 /* .portfolio-title {
 } */
@@ -336,39 +336,27 @@ address {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  gap: 24px;
 }
 
 .portfolio-item {
-  margin-right: 24px;
-  margin-bottom: 48px;
+  width: 360px;
 }
 
-.portfolio-item:nth-child(3n) {
-  margin-right: 0;
-}
-
-.portfolio-item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
-}
-
-.portfolio-img {
-}
+/* .portfolio-img {
+} */
 
 .portfolio-container {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
-
   border-bottom: 1px solid var(--cornflower);
   border-left: 1px solid var(--cornflower);
   border-right: 1px solid var(--cornflower);
   padding: 32px 16px;
   width: 360px;
-  height: 120px;
 }
 
-.portfolio-subtitle {
-}
+/* .portfolio-subtitle {
+} */
+
 .portfolio-paragraf {
   margin-top: 8px;
 }
